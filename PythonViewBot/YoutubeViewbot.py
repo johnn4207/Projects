@@ -34,7 +34,7 @@ def window():
     win.setWindowTitle("YouTube ViewBot")
 
     linkLabel = QtWidgets.QLabel(win)
-    linkLabel.setText("Video Link")
+    linkLabel.setText("https://www.youtube.com/watch?v=_AUJO-LXgjw&t=201s")
     linkLabel.move(15, 20)
     linkInput = QtWidgets.QLineEdit(win)
     linkInput.setGeometry(110, 10, 191, 20)
